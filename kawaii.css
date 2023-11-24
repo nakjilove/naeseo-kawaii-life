@@ -1,0 +1,62 @@
+
+/*제목(Naeseo Kawaii Life*/
+h1 {
+    text-align : center;
+    font-size : 65px;
+    border-bottom : 3px solid rgb(255,202,229);
+    padding-bottom: 26px;
+    padding-top : 26px;
+    margin : 0px;
+}
+#main {
+    color : pink;
+    text-decoration: none;
+}
+/*그리드*/
+
+#grid{
+    display: grid;
+    grid-template-columns: 270px 1fr;
+}
+
+/*ul태그(카테고리)*/
+#grid ul {
+    padding-top : 30px;
+    margin : 0px;
+    width:200px;
+}
+
+ul{
+    list-style : none;
+    padding: 30px;
+    font-size : 20px;
+}
+.text a {
+    color : black;
+    text-decoration: none;
+}
+
+.heart{
+    color : rgb(255, 0, 129);
+}
+
+/*h2*/
+h2 {
+    font-size: 40px;
+    padding : 15px;
+    line-height: 2;
+}
+#subtitle {
+    border-left: 3px solid rgb(255,202,229);
+    color : rgb(255,72,165);
+    display: inline;
+}
+
+/*본문*/
+.content {
+    border-left: 3px solid rgb(255,202,229);
+    margin : 0px;
+    padding : 30px;
+    font-size : 18px;
+    line-height : 1.8;
+}
